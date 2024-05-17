@@ -28,12 +28,12 @@ export default function Home() {
   return (
     <div className="flex flex-col pt-6 items-center h-screen bg-purple-700 text-white gap-6">
 
-      <h1 className="text-8xl text-slate-300">IB Coding School</h1>
+      <h1 className="lg:text-8xl text-2xl text-slate-300">IB Coding School</h1>
 
-      <h2 className="text-3xl">Table Printing App</h2>
+      <h2 className="lg:text-3xl text-xl">Table Printing App</h2>
 
     {/* table input */}
-      <div className="space-x-2">
+      <div className="flex flex-col lg:flex-row gap-2">
 
         <input
         onChange={(e: any)=> setNumber(e.target.value)}
